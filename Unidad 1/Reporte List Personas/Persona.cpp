@@ -35,6 +35,6 @@ string Persona::toString(){
 	return "nombre: " + getName() + "\n" +
 		"Edad: " + to_string(getAge()) + "\n" +
 		"peso: " + to_string(getPeso()) + "\n" +
-		"vive: " + (vive ? "si" : "NO") + "\n" +
+		"vive: " + (vive ? "SI" : "NO") + "\n" +
 		"E.C.: " + getEstadoCivil() + "";
 }

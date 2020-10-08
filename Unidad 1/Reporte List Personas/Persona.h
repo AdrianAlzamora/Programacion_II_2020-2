@@ -6,7 +6,8 @@ using namespace std;
 class Persona
 {
 private:
-	string name;
+	//atributos
+    string name;
 	int age;
 	double peso;
 	bool vive;

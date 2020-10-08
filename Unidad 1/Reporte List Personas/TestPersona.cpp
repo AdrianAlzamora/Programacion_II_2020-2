@@ -11,6 +11,7 @@ void reporteDatos(vector<Persona*> lp, string titulo) {
 }
 
 int main() {
+	srand(time(NULL));
 	ListaPersona* lp = new ListaPersona();
 	lp->initListaPersona();
 	reporteDatos(lp->getListadoPersona(), "REPORTE GENERAL");

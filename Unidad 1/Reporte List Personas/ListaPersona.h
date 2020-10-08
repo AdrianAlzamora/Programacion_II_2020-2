@@ -1,7 +1,7 @@
 #pragma once
 #include <vector>
 #include "Persona.h"
-
+#include <ctime>
 class ListaPersona
 {
 private:
